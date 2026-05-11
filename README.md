@@ -4,6 +4,13 @@ Ferramenta web para análise estática de repositórios GitHub em busca de expos
 
 ---
 
+> ### 🌐 Demo em produção
+> Acesse o projeto **GitHub PII Scanner** em produção:
+>
+> **[https://git-hub-pii-scanner.vercel.app/](https://git-hub-pii-scanner.vercel.app/)**
+
+---
+
 ## Como funciona
 
 O fluxo de análise percorre três etapas sequenciais:
