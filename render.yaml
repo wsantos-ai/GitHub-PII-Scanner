@@ -1,11 +1,13 @@
 services:
   - type: web
-    name: pii-scanner
+    name: github-pii-scanner
     env: node
     region: oregon
     plan: free
     buildCommand: npm install && npm run build
     startCommand: npm start
+    nodeVersion: 22          # força Node 22 explicitamente
+    healthCheckPath: /       # Render verifica se o serviço subiu
     envVars:
       - key: NODE_ENV
         value: production
